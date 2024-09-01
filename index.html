@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ashutosh Singh</title>
+    <meta name="description" content="Ashutosh Singh's portfolio website" />
+    <meta
+      name="keywords"
+      content="regl, webgl, background, website, decorative, scroll effect, spiral, distortion "
+    />
+    <meta name="author" content="Ashutosh" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo1.css" />
+    <link rel="stylesheet" type="text/css" href="css/cursor.css" />
+    <script>
+      document.documentElement.className = "js";
+    </script>
+  </head>
+  <body class="demo-1 loading">
+    <canvas id="webgl"></canvas>
+    <svg class="hidden">
+      <symbol id="icon-arrow" viewBox="0 0 24 24">
+        <title>arrow</title>
+        <polygon
+          points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "
+        />
+      </symbol>
+      <symbol id="icon-drop" viewBox="0 0 24 24">
+        <title>drop</title>
+        <path
+          d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"
+        />
+        <path
+          d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"
+        />
+      </symbol>
+      <symbol id="icon-github" viewBox="0 0 32.6 31.8">
+        <title>github</title>
+        <path
+          d="M16.3,0C7.3,0,0,7.3,0,16.3c0,7.2,4.7,13.3,11.1,15.5c0.8,0.1,1.1-0.4,1.1-0.8c0-0.4,0-1.4,0-2.8c-4.5,1-5.5-2.2-5.5-2.2c-0.7-1.9-1.8-2.4-1.8-2.4c-1.5-1,0.1-1,0.1-1c1.6,0.1,2.5,1.7,2.5,1.7c1.5,2.5,3.8,1.8,4.7,1.4c0.1-1.1,0.6-1.8,1-2.2c-3.6-0.4-7.4-1.8-7.4-8.1c0-1.8,0.6-3.2,1.7-4.4C7.4,10.7,6.8,9,7.7,6.8c0,0,1.4-0.4,4.5,1.7c1.3-0.4,2.7-0.5,4.1-0.5c1.4,0,2.8,0.2,4.1,0.5c3.1-2.1,4.5-1.7,4.5-1.7c0.9,2.2,0.3,3.9,0.2,4.3c1,1.1,1.7,2.6,1.7,4.4c0,6.3-3.8,7.6-7.4,8c0.6,0.5,1.1,1.5,1.1,3c0,2.2,0,3.9,0,4.5c0,0.4,0.3,0.9,1.1,0.8c6.5-2.2,11.1-8.3,11.1-15.5C32.6,7.3,25.3,0,16.3,0z"
+        />
+      </symbol>
+    </svg>
+    <main>
+      <div class="content">
+        <header class="codrops-header" id="header">
+          <h1 class="codrops-header__title">AS</h1>
+          <nav class="demos">
+            <a class="demo demo--current" href="index.html"
+              ><span>home</span></a
+            >
+            <a class="demo" href="works.html"><span>work</span></a>
+            <a class="demo" href="projects.html"><span>projects</span></a>
+            <a class="demo" href="skills.html"><span>skills</span></a>
+            <a class="demo" href="about.html"><span>about</span></a>
+          </nav>
+          <a
+            href="https://github.com/ashutosh-s15"
+            title="Find this project on GitHub"
+            class="github"
+            target="_blank"
+            ><svg class="icon icon--github">
+              <use xlink:href="#icon-github"></use></svg
+          ></a>
+          <div class="location">
+            <img src="/img/location.png" alt="location" />
+            <span>Jaipur, India</span>
+          </div>
+        </header>
+        <p class="info">
+          Download
+          <a href="https://asht.netlify.app/Resume-AS.pdf" target="_blank"
+            >Resume</a
+          >
+          here
+          <a
+            class="codrops-icon codrops-icon--prev"
+            href="#header"
+            title="Go to top"
+            ><svg class="icon--arrow rotate-icon">
+              <use xlink:href="#icon-arrow"></use></svg
+          ></a>
+        </p>
+      </div>
+      <div class="content">
+        <div class="content__section">
+          <div class="content__main">
+            <span>Ashutosh Singh</span>
+            <span>Portfolio/</span>
+          </div>
+          <h2 class="content__text">Welcome</h2>
+        </div>
+        <div class="content__section">
+          <a class="content__link" href="./works.html"
+            ><img class="content__img" src="img/set1/1.jpg" alt="img"
+          /></a>
+          <h2 class="content__text">Works</h2>
+        </div>
+        <div class="content__section">
+          <a class="content__link" href="./projects.html"
+            ><img class="content__img" src="img/set1/2.jpg" alt="img"
+          /></a>
+          <h2 class="content__text">Projects</h2>
+        </div>
+        <div class="content__section">
+          <a class="content__link" href="./skills.html"
+            ><img class="content__img" src="img/set1/3.jpg" alt="img"
+          /></a>
+          <h2 class="content__text">Skills</h2>
+        </div>
+        <div class="content__section">
+          <a class="content__link" href="./about.html"
+            ><img class="content__img" src="img/set1/4.jpg" alt="img"
+          /></a>
+          <h2 class="content__text">About me</h2>
+        </div>
+        <div class="content__section">
+          <h2 class="content__text">Contact</h2>
+          <div class="content__contact">
+            <a href="https://www.linkedin.com/in/12-ashutosh/" target="_blank"
+              >Linkdin</a
+            >
+            <a href="https://twitter.com/cosmic_fella" target="_blank"
+              >Twitter</a
+            >
+            <a href="#">hello'at'asht12singh@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <svg class="cursor" width="140" height="140" viewBox="0 0 140 140">
+      <defs>
+        <filter
+          id="cursor-filter"
+          x="-50%"
+          y="-50%"
+          width="200%"
+          height="200%"
+          filterUnits="objectBoundingBox"
+        >
+          <feTurbulence
+            type="fractalNoise"
+            seed="3"
+            baseFrequency="0"
+            numOctaves="1"
+            result="warp"
+          />
+          <feDisplacementMap
+            xChannelSelector="R"
+            yChannelSelector="G"
+            scale="15"
+            in="SourceGraphic"
+          />
+        </filter>
+      </defs>
+      <circle class="cursor__inner" cx="70" cy="70" r="20" />
+    </svg>
+    <svg
+      class="cursor"
+      width="140"
+      height="140"
+      viewBox="0 0 140 140"
+      data-amt="0.13"
+    >
+      <circle class="cursor__inner" cx="70" cy="70" r="24" />
+    </svg>
+    <script src="js/regl.min.js"></script>
+    <script type="x-shader/x-fragment" id="fragmentShader">
+      #define TWO_PI 6.2831853072
+      #define PI 3.14159265359
+
+      precision highp float;
+
+      uniform float globaltime;
+      uniform vec2 resolution;
+      uniform float aspect;
+      uniform float scroll;
+      uniform float velocity;
+      uniform sampler2D texture;
+
+      const float timescale = 0.1;
+      const float twist = 2.0;
+
+      vec2 rotate(vec2 v, float angle) {
+        float c = cos(angle);
+        float s = sin(angle);
+        return v * mat2(c, -s, s, c);
+      }
+
+      float nsin(float value) {
+        return sin(value * TWO_PI) * 0.5 + 0.5;
+      }
+
+      void main(void) {
+        float time = globaltime * timescale;
+        vec2 center = vec2(sin(TWO_PI * time * 0.2), cos(TWO_PI * time * 0.2)) * nsin(time * 0.3) * 0.5;
+        vec2 tx = (gl_FragCoord.xy / resolution.xy - 0.5 - center) * vec2(aspect, 1.0);
+        float len = 1.0 - length(tx);
+        float zoom = 0.0 + scroll - len * 2.0 * (1.0 - scroll) + len * velocity;
+
+        vec4 imgColor = texture2D(
+          texture,
+          rotate(
+            (tx + center) * vec2(1.0, -1.0) * zoom,
+            twist * TWO_PI * nsin(len + time) * scroll + time
+          ) + 0.5
+        );
+
+        gl_FragColor = imgColor;
+      }
+    </script>
+    <script src="js/home.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/charming.min.js"></script>
+    <script src="js/demo1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="js/cursor.js"></script>
+  </body>
+</html>
