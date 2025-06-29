@@ -424,6 +424,10 @@ a.demo--current {
   width: 0; /* Make the underline appear from left to right */
 }
 
-.job_title {
+.job__title {
   line-height: 1.2;
+  background-color: #4b4545;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 6px;
 }
