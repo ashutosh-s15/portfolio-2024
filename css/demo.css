@@ -423,3 +423,7 @@ a.demo--current {
 #hover-text:hover::before {
   width: 0; /* Make the underline appear from left to right */
 }
+
+.job_title {
+  line-height: 1.2;
+}
