@@ -358,6 +358,7 @@ a.demo--current {
   .content__title {
     position: static;
     padding: 0;
+    padding-left: 6px;
   }
 
   .content__section:first-child,
