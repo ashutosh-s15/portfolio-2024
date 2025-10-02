@@ -358,6 +358,7 @@ a.demo--current {
   .content__title {
     position: static;
     padding: 0;
+    padding-left: 6px;
   }
 
   .content__section:first-child,
@@ -422,4 +423,12 @@ a.demo--current {
 
 #hover-text:hover::before {
   width: 0; /* Make the underline appear from left to right */
+}
+
+.job__title {
+  line-height: 1.2;
+  background-color: #4b4545;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 6px;
 }
